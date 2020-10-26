@@ -1,4 +1,4 @@
 text = "X-DSPAM-Confidence:    0.8475"
 text=text.replace(' ','')
 b=text.find(':')
-print(text[b+1:50])//
+print (float(text[b+1:50]))
